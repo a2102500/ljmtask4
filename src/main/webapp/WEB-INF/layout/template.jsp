@@ -7,18 +7,17 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<%@ taglib  prefix="tiles" uri="http://tiles.apache.org/tags-tiles" %>
+<%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles" %>
 
 
 <!DOCTYPE html>
 <html>
 <head>
-
-    <tiles:insertAttribute name="title"/>
+    <%--<tiles:insertAttribute name="title"/>--%>
 </head>
 <body>
-<tiles:insertAttribute name="header"/>
-<tiles:insertAttribute name="boby"/>
-<tiles:insertAttribute name="footer"/>
+    <%--<tiles:insertAttribute name="header"/--%>
+    <tiles:insertAttribute name="boby"/>
+    <%--<tiles:insertAttribute name="footer"/>--%>
 </body>
 </html>

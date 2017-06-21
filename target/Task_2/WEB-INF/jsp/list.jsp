@@ -23,8 +23,8 @@
     <tr>
         <th>id</th>
         <th>姓名</th>
-        <th>密码</th>
-        <th>QQ</th>
+        <th>学习类型</th>
+        <th>职位类型</th>
         <%--<th>修真类型</th>
         <th>入学时间</th>
         <th>毕业院校</th>

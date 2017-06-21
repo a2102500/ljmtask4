@@ -11,21 +11,21 @@
     <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link href="css/t11.css" rel="stylesheet" type="text/css">
-    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <link href="/Task_2/css/t11.css" rel="stylesheet" type="text/css">
+    <link href="/Task_2/css/base.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <header>
     <div class="top container">
         <p class="hidden-xs">客服热线：010-594-78634</p>
-        <img src="imges/12321.gif">
+        <img src="/Task_2/imges/12321.gif">
     </div>
 
     <div role="navigation" class="nav1 navbar navbar-default">
         <div class="container">
             <div class="header-logo">
-                <div class="logo-middle"><img src="imges/logo.png"></div>
+                <div class="logo-middle"><img src="/Task_2/imges/logo.png"></div>
             </div>
             <div class="navbar-header marginTop">
                 <button data-target="#example-navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
@@ -71,7 +71,7 @@
                     <div class="col-md-4 col-sm-6 col-xs-12 top-margin">
                         <div class="warp-border">
                             <div class="clearfix">
-                                <div class="icon-people"><img src="imges/687.png"></div>
+                                <div class="icon-people"><img src="/Task_2/imges/687.png"></div>
                                 <div class="text">
                                     <h4 class="">${profession.profession}</h4>
                                     <p class="text-present">${profession.introduce}</p>
@@ -82,14 +82,14 @@
                                 <div class="warp-class2-text">
                                     <div class="iconfont text-padding">门槛
                                         <c:forEach  begin="1" end="${profession.threshold}">
-                                            <img src="imges/xx.png">
+                                            <img src="/Task_2/imges/xx.png">
                                         </c:forEach>
                                     </div>
                                 </div>
                                 <div class="warp-class2-text">
                                     <div class="iconfont text-padding text-border-left">难易程度
                                         <c:forEach begin="1" end="${profession.difficult}">
-                                            <img src="imges/xx.png">
+                                            <img src="/Task_2/imges/xx.png">
                                         </c:forEach>
                                     </div>
                                 </div>
@@ -158,7 +158,7 @@
             </div>
             <div class="text-right col-sm-4">
                 <p>微信公众号</p>
-                <img src="imges/2524.jpg">
+                <img src="/imges/2524.jpg">
             </div>
         </div>
     </div>
